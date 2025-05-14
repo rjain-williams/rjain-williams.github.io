@@ -1,3 +1,5 @@
 domain: rjain-williams.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://rjain-williams.github.io
-theme: merlot
+remote_theme: pages-themes/merlot@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
